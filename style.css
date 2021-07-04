@@ -1,3 +1,6 @@
+/*****************************
+SECTION 1 STYLEING PART
+*****************************/
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -12,7 +15,7 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex; 
     margin-bottom: 150px;
 }
@@ -49,5 +52,54 @@ p.dream_text {
     margin-right: 110px;
     margin-bottom: 21px;
 }
+.red1{
+    color: red;
+}
+
+/*****************************
+SECTION 3 STYLEING PART
+*****************************/
+.experience-section{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    /* padding-bottom: 1px; */
+}
+.exp-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+}
+h2{
+    font-size: 40px;
+}
+#full-stack-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#exp-h1{
+    margin-left: 5px;
+}
+
+/*****************************
+SECTION 4 STYLEING PART
+*****************************/
+
+footer p{
+    text-align: center;
+}
+
+
+
+
 
 
